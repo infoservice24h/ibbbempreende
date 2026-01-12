@@ -11,7 +11,6 @@ import studioMegaHair from "@/assets/businesses/studio-mega-hair.jpeg";
 import tiaRosane from "@/assets/businesses/tia-rosane.jpeg";
 import doceSom from "@/assets/businesses/doce-som.jpeg";
 import liliFestas from "@/assets/businesses/lili-festas.jpeg";
-import suzanaMinifesta from "@/assets/businesses/suzana-minifesta.jpeg";
 import draGabrielli from "@/assets/businesses/dra-gabrielli.jpeg";
 import greyHouse from "@/assets/businesses/grey-house.jpeg";
 import pabloEstetica from "@/assets/businesses/pablo-estetica.jpeg";
@@ -209,15 +208,6 @@ export const businesses: Business[] = [
     instagram: "@lilifestaspegueemonte",
     image: liliFestas,
     highlights: ["Pegue e Monte", "Decoração de Festas", "Aluguel"],
-  },
-  {
-    id: "suzana-minifesta",
-    name: "Suzana Minifesta",
-    category: "Festas",
-    description: "Kit de festa completo! Painel redondo, painel romano, arco de bolas, boleira, jarro e bandejas.",
-    phone: "(21) 97922-0868",
-    image: suzanaMinifesta,
-    highlights: ["Kit 1 R$50", "Kit 2 R$100", "Arco de Bolas", "Painel Redondo"],
   },
   {
     id: "grey-house",
