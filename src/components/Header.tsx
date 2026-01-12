@@ -1,5 +1,3 @@
-import logo from "@/assets/logo-ibbb.jpeg";
-
 export function Header() {
   return (
     <header className="relative overflow-hidden bg-gradient-hero hexagon-pattern">
@@ -9,14 +7,12 @@ export function Header() {
       
       <div className="container relative z-10 py-12 md:py-20">
         <div className="flex flex-col items-center text-center animate-fade-in">
-          {/* Logo */}
+          {/* Logo Text */}
           <div className="mb-8 relative">
             <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl scale-150" />
-            <img
-              src={logo}
-              alt="IBBB Empreende"
-              className="relative w-40 h-40 md:w-52 md:h-52 object-contain rounded-2xl shadow-hover"
-            />
+            <div className="relative w-40 h-40 md:w-52 md:h-52 flex items-center justify-center bg-gradient-card rounded-2xl shadow-hover border border-primary/20">
+              <span className="text-5xl md:text-6xl font-bold text-gradient-gold font-serif">IBBB</span>
+            </div>
           </div>
 
           {/* Title */}
