@@ -28,7 +28,7 @@ export function Header() {
 
           {/* Description */}
           <p className="text-muted-foreground max-w-xl">
-            Conheça os empreendedores da nossa comunidade e apoie negócios locais. 
+            Conheça os empreendedores da nossa igreja e apoie negócios locais. 
             Qualidade, dedicação e confiança em cada produto e serviço.
           </p>
 
